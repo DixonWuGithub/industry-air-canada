@@ -22,7 +22,11 @@ function Landing() {
                 With our browser extension, you can gain point <b>Easier</b> and
                 <b> Faster</b> from thousands of our partners.
               </p>
-              <button className="button button--landing">Add to Chrome</button>
+              <a href="https://chrome.google.com/webstore/detail/aeroplan-shopping-button/jcggkkmhpnjfdkbdopniflkghfkgoalo">
+                <button className="button button--landing">
+                  Add to Chrome
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -60,13 +64,15 @@ function Landing() {
       <section>
         <div className="dontmiss">
           <h1 className="dontmiss__title">
-            Don't miss it. 
+            Don't miss it.
             <br />
             Earn your points.
             <br />
             Use your points
           </h1>
-          <button className="button button--landing">Add to Chrome</button>
+          <a href="https://chrome.google.com/webstore/detail/aeroplan-shopping-button/jcggkkmhpnjfdkbdopniflkghfkgoalo">
+            <button className="button button--landing">Add to Chrome</button>
+          </a>
         </div>
       </section>
       {/* <div className="footer"></div> */}
