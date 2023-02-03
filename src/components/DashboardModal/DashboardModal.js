@@ -25,14 +25,13 @@ function DashboardModal() {
                     <button className="button">
                         Add to Safari
                     </button></Link>
+                    <Link to="/landing">
                     <button className="button button--learn-more">
                         Learn more
-                    </button>
+                    </button></Link>
                     <p className="modal__body modal__body--bottom">
                     By adding the eStore extension to your browser, we'll automatically let you know when you can earn with a simple one-click activation. 
                     </p>
-                
-
                 </div>
                 <div className="modal__banner">
                     <img src={modalBanner} alt="" className="modal-banner" />
