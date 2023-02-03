@@ -19,7 +19,7 @@ function FrequentFlyerView() {
               <img src={pointsbar} alt="progress bar" />
             </div>
             <div className="frequent-flyer__card">
-              <img className="cardimage" src={card} />
+              <img className="image" src={card} />
             </div>
           </div>
         </div>
