@@ -3,9 +3,11 @@
 @use "./mixins" as *;
 
 .section {
+    //highest level wrapper under App, this is where the background color gets set, wrap .body-wrap directly inside
     display: flex;
     width: 100%;
-    @include margin-limits;
+    
+    background-color: aquamarine; //test
 }
 
 .body-wrap {
@@ -14,7 +16,8 @@
     flex-direction: column;
     align-items: center;
     padding: 0 $margin-side;
-    // max-width: <margin limits - 2x above side margin>
+    @include margin-limits;
+    
 }
 
 .hidden {
