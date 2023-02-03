@@ -45,13 +45,11 @@
     align-items: center;
   }
 
-  &__text{
+  &__text {
     text-align: start;
     display: flex;
     flex-direction: column;
   }
-  
-
 
   &__image-container {
     display: flex;
@@ -63,8 +61,6 @@
 }
 
 .dontmiss {
-
-  
   align-content: center;
   min-height: 55rem;
   display: flex;
@@ -77,9 +73,20 @@
   }
 }
 
-.footer {
-  //   background-image: url(../../assets/Footer.png);
-  //   background-repeat: no-repeat;
-  height: 141vh;
-  width: 100vw;
+// .footer {
+//   //   background-image: url(../../assets/Footer.png);
+//   //   background-repeat: no-repeat;
+
+//   width: 100vw;
+//   height: auto;
+// }
+
+footer {
+  width: 100%;
+}
+.footer-image {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
 }
