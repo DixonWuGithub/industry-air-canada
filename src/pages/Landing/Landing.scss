@@ -5,8 +5,14 @@
 .hero {
   &__block {
     display: flex;
-    justify-content: right;
+    // background-image: url(../../assets/HeroImage.png);
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    background-color: #bfd7e7;
+    justify-content: space-around;
     flex-direction: row;
+    width: 100vw;
+    height: 100vh;
   }
 
   &__button {

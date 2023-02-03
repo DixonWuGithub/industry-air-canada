@@ -2,7 +2,7 @@ import "./Landing.scss";
 import Header from "../../components/Header/Header";
 import FrequentFlyerView from "../../components/FrequentFlyerView/FrequentFlyerView";
 import EverydayEarnerView from "../../components/EverydayEarnerView/EverydayEarnerView";
-import cart from "../../assets/HeroImage.png";
+import cart from "../../assets/HeroImage2.png";
 import extensionIcon from "../../assets/ExtensionLogo.png";
 
 function Landing() {
