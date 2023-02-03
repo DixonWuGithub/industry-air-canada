@@ -18,14 +18,14 @@ function DashboardModal() {
                     <p className="modal__body">
                         add the Aeroplan eStore extension to your browser with just a couple of clicks
                     </p>
-                    <h3 className="modal__subtitle">
+                    <h2 className="modal__subtitle">
                         and let the earning begin!
-                    </h3>
+                    </h2>
                     <Link to="/landing">
                     <button className="button">
-                        Add to Safari
+                        Add to Chrome
                     </button></Link>
-                    <Link to="/landing">
+                    <Link className="link--learn-more" to="/landing">
                     <button className="button button--learn-more">
                         Learn more
                     </button></Link>
