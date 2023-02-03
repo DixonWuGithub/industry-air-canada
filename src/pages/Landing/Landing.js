@@ -21,7 +21,7 @@ function Landing() {
                 With our browser extension, you can gain point <b>Easier</b> and
                 <b> Faster</b> from thousands of our partners.
               </p>
-              <button>Add to Safari</button>
+              <button className="button">Add to Chrome</button>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ function Landing() {
             <br />
             Use your points
           </h1>
-          <button>Add to Safari</button>
+          <button className="button">Add to Chrome</button>
         </div>
       </section>
 
