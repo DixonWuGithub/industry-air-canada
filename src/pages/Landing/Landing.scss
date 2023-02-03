@@ -5,14 +5,11 @@
 .hero {
   &__block {
     display: flex;
-    // background-image: url(../../assets/HeroImage.png);
-    // background-repeat: no-repeat;
-    // background-size: contain;
     background-color: #bfd7e7;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
+    height: 67vh;
   }
 
   &__button {
@@ -23,8 +20,10 @@
   &__textcontainer {
     width: 49%;
     padding: 5rem;
-
     text-align: start;
+  }
+  &__image {
+    height: 100%;
   }
 }
 

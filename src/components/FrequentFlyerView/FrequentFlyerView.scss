@@ -10,9 +10,21 @@
 
   &__text {
     padding: 3rem;
+    position: relative;
+    left: 12rem;
   }
 
   &__card {
     padding: 3rem;
   }
+}
+
+.redtext {
+  color: $secondaryColor2;
+}
+
+.cardimage {
+  height: 30rem;
+  position: relative;
+  left: 5rem;
 }
