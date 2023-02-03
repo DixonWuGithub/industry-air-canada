@@ -1,0 +1,26 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.everdayearner {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+
+  &__text {
+    padding: 3rem;
+  }
+
+  &__card {
+    padding: 3rem;
+  }
+}
+
+.redtext {
+  color: $secondaryColor2;
+}
+
+.image {
+  height: 25rem;
+}
