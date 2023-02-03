@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 @mixin margin-limits {
-        max-width: 102rem;
+        max-width: 144rem;
         //set max width to be desired max width + 2x side paddings
         margin: auto;
 }

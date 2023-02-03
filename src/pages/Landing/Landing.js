@@ -29,22 +29,26 @@ function Landing() {
       {/* conditionally render below: */}
       <FrequentFlyerView />
       <EverydayEarnerView />
-      <section>
-        <div className="howto">
-          <div className="howto__image">
-            <img src={extensionIcon} />
-          </div>
-          <div className="howto__textcontainer">
-            <h1>How do you use it:</h1>
-            <br />
-            <p className="bold">Step 1:</p>
-            <p>Install the extension to the browser</p>
-            <br />
-            <p className="bold">Step 2:</p>
-            <p>Sign in to your Aeroplan account</p>
-            <br />
-            <p className="bold">Step 3:</p>
-            <p>Track and redeem points</p>
+      <section className="section section--how-to">
+        <div className="body-wrap">
+          <div className="howto">
+            <div className="howto__image-container">
+              <img className="howto__image" src={extensionIcon} />
+            </div>
+            <div className="howto__textcontainer">
+              <div className="howto__text">
+              <h1 className="howto__title">How do you use it:</h1>
+              
+              <p className="bold">Step 1:</p>
+              <p className="bold bold--bottom">Install the extension to the browser</p>
+              
+              <p className="bold">Step 2:</p>
+              <p className="bold bold--bottom">Sign in to your Aeroplan account</p>
+              
+              <p className="bold">Step 3:</p>
+              <p className="bold bold--bottom">Track and redeem points</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

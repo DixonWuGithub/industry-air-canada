@@ -10,6 +10,10 @@
   width: 100%;
 
   background-color: aquamarine; //test
+
+  &--how-to{
+    background-color: #c0d8e7;
+  }
 }
 
 .body-wrap {
@@ -48,4 +52,9 @@
 
 .bold {
   font-weight: bold;
+  margin: 0;
+
+  &--bottom{
+    margin: 1rem 0 4rem 0;
+  }
 }
