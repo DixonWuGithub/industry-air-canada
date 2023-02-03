@@ -4,15 +4,9 @@
 
 .hero {
   &__block {
-    background-image: url("../../assets/HeroImage.png");
-    background-repeat: no-repeat;
-    text-align: right;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 103vh;
     display: flex;
     justify-content: right;
+    flex-direction: row;
   }
 
   &__button {
@@ -30,8 +24,8 @@
 
 .howto {
   background-color: #c0d8e7;
-  background-image: url(../../assets/ExtensionLogo.png);
-  background-repeat: no-repeat;
+  //   background-image: url(../../assets/ExtensionLogo.png);
+  //   background-repeat: no-repeat;
   text-align: left;
   width: 100vw;
   height: 103vh;
@@ -42,6 +36,10 @@
     width: 49%;
     padding: 5rem;
     text-align: start;
+  }
+
+  &__image {
+    height: 100%;
   }
 }
 
@@ -54,6 +52,8 @@
 }
 
 .footer {
-  background-image: url("../../assets/Footer.png");
-  height: 100%;
+  //   background-image: url(../../assets/Footer.png);
+  //   background-repeat: no-repeat;
+  height: 141vh;
+  width: 100vw;
 }

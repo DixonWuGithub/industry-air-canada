@@ -1,11 +1,13 @@
 import "./Header.scss";
-const headerimage = "../../assets/Menu.png";
+import headerimage from "../../assets/Menu.png";
 
 function Header() {
   return (
     <section className="section">
       <div className="body-wrap">
-        <div className="header"></div>
+        <div className="header">
+          <img src={headerimage} />
+        </div>
       </div>
     </section>
   );
