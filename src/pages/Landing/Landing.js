@@ -2,7 +2,8 @@ import "./Landing.scss";
 import Header from "../../components/Header/Header";
 import FrequentFlyerView from "../../components/FrequentFlyerView/FrequentFlyerView";
 import EverydayEarnerView from "../../components/EverydayEarnerView/EverydayEarnerView";
-import cart from "../../assets/HeroImage.png";
+import cart from "../../assets/HeroImage2.png";
+import extensionIcon from "../../assets/ExtensionLogo.png";
 
 function Landing() {
   return (
@@ -13,7 +14,7 @@ function Landing() {
           <div className="landing">This is the Landing Page</div>
 
           <div className="hero__block">
-            <img></img>
+            <img src={cart} />
             <div className="hero__textcontainer">
               <h1>We help you to earn points in any dollar you spend</h1>
               <p>
@@ -30,6 +31,9 @@ function Landing() {
       <EverydayEarnerView />
       <section>
         <div className="howto">
+          <div className="howto__image">
+            <img src={extensionIcon} />
+          </div>
           <div className="howto__textcontainer">
             <h1>How do you use it:</h1>
             <br />
