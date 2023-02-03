@@ -2,5 +2,6 @@
 
 @mixin margin-limits {
         max-width: 102rem;
+        //set max width to be desired max width + 2x side paddings
         margin: auto;
 }
