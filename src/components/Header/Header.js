@@ -1,20 +1,14 @@
-import "./Header.scss"
+import "./Header.scss";
+const headerimage = "../../assets/Menu.png";
 
-function Header(){
-    return (
-        <section className="section">
-            <div className="body-wrap">
-                <div className="header">
-                    <div className="header-left">
-                        icon
-                    </div>
-                    <div className="header-right">
-                        navs
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+function Header() {
+  return (
+    <section className="section">
+      <div className="body-wrap">
+        <div className="header"></div>
+      </div>
+    </section>
+  );
 }
 
-export default Header
+export default Header;

@@ -1,3 +1,59 @@
 @use "../../styles/partials/global" as *;
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
+
+.hero {
+  &__block {
+    background-image: url("../../assets/HeroImage.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 103vh;
+    display: flex;
+    justify-content: right;
+  }
+
+  &__button {
+    color: white;
+    background-color: #205075;
+  }
+
+  &__textcontainer {
+    width: 49%;
+    padding: 5rem;
+
+    text-align: start;
+  }
+}
+
+.howto {
+  background-color: #c0d8e7;
+  background-image: url(../../assets/ExtensionLogo.png);
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 100vw;
+  height: 103vh;
+  display: flex;
+  justify-content: right;
+
+  &__textcontainer {
+    width: 49%;
+    padding: 5rem;
+    text-align: start;
+  }
+}
+
+.dontmiss {
+  align-content: center;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  background-image: url("../../assets/Footer.png");
+  height: 100%;
+}
