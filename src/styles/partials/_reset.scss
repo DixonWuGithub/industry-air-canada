@@ -1,37 +1,42 @@
 @use "./typography";
 @use "./variables" as *;
 @use "./mixins" as *;
+@use "./typography" as *;
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-
 body {
-    color: $neutralsColor2;
-    font-family: 'Open Sans', sans-serif;
-    font-size:1.6rem;
-    padding: 0;
-    margin: 0;
+  color: $primaryColor1;
+  font-family: "Open Sans Regular";
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 li {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Open Sans Bold";
 }
