@@ -21,7 +21,7 @@ function Landing() {
                 With our browser extension, you can gain point <b>Easier</b> and
                 <b> Faster</b> from thousands of our partners.
               </p>
-              <button className="button">Add to Chrome</button>
+              <button className="button button--landing">Add to Chrome</button>
             </div>
           </div>
         </div>
@@ -54,12 +54,14 @@ function Landing() {
       </section>
       <section>
         <div className="dontmiss">
-          <h1>
-            Don't miss it. Earn your points.
+          <h1 className="dontmiss__title">
+            Don't miss it. 
+            <br />
+            Earn your points.
             <br />
             Use your points
           </h1>
-          <button className="button">Add to Chrome</button>
+          <button className="button button--landing">Add to Chrome</button>
         </div>
       </section>
 

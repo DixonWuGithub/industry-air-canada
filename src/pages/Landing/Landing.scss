@@ -52,9 +52,7 @@
     flex-direction: column;
   }
   
-  &__image{
-    
-  }
+
 
   &__image-container {
     display: flex;
@@ -66,11 +64,18 @@
 }
 
 .dontmiss {
+
+  
   align-content: center;
-  height: 32rem;
+  min-height: 55rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  &__title {
+    font-size: 5rem;
+    margin-top: 0;
+  }
 }
 
 .footer {
