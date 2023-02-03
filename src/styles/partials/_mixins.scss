@@ -1,0 +1,6 @@
+@use "./variables" as *;
+
+@mixin margin-limits {
+        max-width: 102rem;
+        margin: auto;
+}

@@ -1,0 +1,22 @@
+@use "./reset";
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.section {
+    display: flex;
+    width: 100%;
+    @include margin-limits;
+}
+
+.body-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 $margin-side;
+    // max-width: <margin limits - 2x above side margin>
+}
+
+.hidden {
+    display: none;
+}
