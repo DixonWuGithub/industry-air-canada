@@ -1,6 +1,6 @@
 import "./FrequentFlyerView.scss";
 import pointsbar from "../../assets/Pointsbar.png";
-import card from "../../assets/AeroplanCard.png";
+import card from "../../assets/AeroplanEliteCard.png";
 
 function FrequentFlyerView() {
   return (
@@ -19,7 +19,7 @@ function FrequentFlyerView() {
               <img src={pointsbar} alt="progress bar" />
             </div>
             <div className="frequent-flyer__card">
-              <img src={card} />
+              <img className="cardimage" src={card} />
             </div>
           </div>
         </div>
