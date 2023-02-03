@@ -2,10 +2,6 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-@use "../../styles/partials/global" as *;
-@use "../../styles/partials/variables" as *;
-@use "../../styles/partials/mixins" as *;
-
 .everdayearner {
   background-color: white;
   display: flex;
@@ -19,13 +15,12 @@
   &__card {
     padding: 3rem;
   }
-
-  .redtext {
-    color: $secondaryColor2;
-  }
-
-  .image {
-    height: 25rem;
-  }
 }
-//testing git
+
+.redtext {
+  color: $secondaryColor2;
+}
+
+.image {
+  height: 25rem;
+}
