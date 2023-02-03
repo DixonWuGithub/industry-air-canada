@@ -1,3 +1,18 @@
 @use "../../styles/partials/global" as *;
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
+
+.frequent-flyer {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+
+  &__text {
+    padding: 3rem;
+  }
+
+  &__card {
+    padding: 3rem;
+  }
+}
