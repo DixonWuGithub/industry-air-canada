@@ -4,8 +4,15 @@ import FrequentFlyerView from "../../components/FrequentFlyerView/FrequentFlyerV
 import EverydayEarnerView from "../../components/EverydayEarnerView/EverydayEarnerView";
 import cart from "../../assets/HeroImage3.png";
 import extensionIcon from "../../assets/ExtensionLogo.png";
+import { useState } from "react";
 
 function Landing() {
+
+  const [who, setWho] = useState(true)
+  function handleSwitch() {
+    setWho(!who)
+  }
+
   return (
     <>
       <Header />
@@ -27,8 +34,14 @@ function Landing() {
         </div>
       </section>
       {/* conditionally render below: */}
-      <FrequentFlyerView />
-      <EverydayEarnerView />
+      <div onClick={handleSwitch} className="profiles">
+        {who
+         ? <FrequentFlyerView /> 
+         : <EverydayEarnerView />
+         }
+      </div>
+      {/* <FrequentFlyerView />
+      <EverydayEarnerView /> */}
       <section className="section section--how-to">
         <div className="body-wrap">
           <div className="howto">
@@ -37,16 +50,16 @@ function Landing() {
             </div>
             <div className="howto__textcontainer">
               <div className="howto__text">
-              <h1 className="howto__title">How do you use it:</h1>
-              
-              <p className="bold">Step 1:</p>
-              <p className="bold bold--bottom">Install the extension to the browser</p>
-              
-              <p className="bold">Step 2:</p>
-              <p className="bold bold--bottom">Sign in to your Aeroplan account</p>
-              
-              <p className="bold">Step 3:</p>
-              <p className="bold bold--bottom">Track and redeem points</p>
+                <h1 className="howto__title">How do you use it:</h1>
+
+                <p className="bold">Step 1:</p>
+                <p className="bold bold--bottom">Install the extension to the browser</p>
+
+                <p className="bold">Step 2:</p>
+                <p className="bold bold--bottom">Sign in to your Aeroplan account</p>
+
+                <p className="bold">Step 3:</p>
+                <p className="bold bold--bottom">Track and redeem points</p>
               </div>
             </div>
           </div>
@@ -55,7 +68,7 @@ function Landing() {
       <section>
         <div className="dontmiss">
           <h1 className="dontmiss__title">
-            Don't miss it. 
+            Don't miss it.
             <br />
             Earn your points.
             <br />
