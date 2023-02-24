@@ -5,8 +5,9 @@
 .everdayearner {
   background-color: white;
   display: flex;
-  width: 100vw;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 
   &__text {
     padding: 3rem;

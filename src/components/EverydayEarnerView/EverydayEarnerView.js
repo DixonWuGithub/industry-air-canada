@@ -5,7 +5,7 @@ import card from "../../assets/AeroplanCard.png";
 function EverydayEarnerView() {
   return (
     <>
-      <section className="section">
+      <section className="section section--profile">
         <div className="body-wrap">
           <div className="everdayearner">
             <div className="everdayearner__text">

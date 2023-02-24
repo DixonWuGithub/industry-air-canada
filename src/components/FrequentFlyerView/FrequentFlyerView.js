@@ -5,7 +5,7 @@ import card from "../../assets/AeroplanEliteCard.png";
 function FrequentFlyerView() {
   return (
     <>
-      <section className="section">
+      <section className="section section--profile">
         <div className="body-wrap">
           <div className="frequent-flyer">
             <div className="frequent-flyer__text">
