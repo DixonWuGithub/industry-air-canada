@@ -5,9 +5,11 @@
 .frequent-flyer {
   background-color: white;
   display: flex;
-  width: 100vw;
-  justify-content: center;
-  padding-left: 4rem;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  
 
   &__text {
     padding: 3rem;
